@@ -6,9 +6,7 @@ pipeline{
             sh 'mvn clean package'
             }
         }
-    }
-    stages {
-        stage('Hello') {
+          stage('To show data') {
             steps {
                 echo "I'm a Bad guy"
             }
