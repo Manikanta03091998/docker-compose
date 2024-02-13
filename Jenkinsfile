@@ -7,4 +7,11 @@ pipeline{
             }
         }
     }
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'I'm a Bad guy'
+            }
+        }
+    }
 }
